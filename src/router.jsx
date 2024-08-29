@@ -1,10 +1,11 @@
 import { createBrowserRouter } from "react-router-dom";
+import Home from "./views/home";
 
 export const router = createBrowserRouter([
     /* HOME */
     {
         path: "/",
-        element: <h1>Home</h1>
+        element: <Home />
     }, 
     /* CONTACT */
     {
