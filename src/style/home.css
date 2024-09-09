@@ -20,20 +20,8 @@
 #home-text-title {
     transition: 0.5s ease-in-out;
     -webkit-text-stroke: 0.6px white;
-    animation: text-animation 2s;
-    font-size: 15vw;
-}
-
-
-#home-nav {
-    display: flex;
-    gap: 20px;
-}
-
-.link {
-    color: rgb(95, 95, 95);
-    text-decoration: none;
-    transition: 0.3s ease-in-out;
+        animation: text-animation 2s;
+    font-size: 12vw;
 }
 
 .link:hover {
@@ -52,9 +40,16 @@
     }
 }
 
-/* CUBVE */
 
-/* From Uiverse.io by Deri-Kurniawan */
+.header-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 5vw;
+}
+
+/* CUBE */
+
 .loader {
     perspective: 600px;
     width: 100px;
@@ -117,6 +112,7 @@
     .loader {
         bottom: 15vh;
     }
+
     #home-text-title {
         transition: 0.5s ease-in-out;
         -webkit-text-stroke: 0.6px white;
@@ -124,4 +120,4 @@
         font-size: 10vw;
     }
 
-    }
+}

@@ -1,5 +1,5 @@
 import { useNavigate, Link } from "react-router-dom"
-import './style/home.css'
+import '../style/home.css'
 
 export default function Home() {
 
@@ -9,11 +9,11 @@ export default function Home() {
         <div id="home">
             <div id="home-text">
                 <h3 id="home-text-subtitle">Hello, my name is</h3>
-                <h1 id="home-text-title">ELEOTÉRIO</h1>
+                <h1 id="home-text-title">&#60;ELEOTÉRIO&#47;&#62;</h1>
             </div>
-            <nav id="home-nav">
-                <Link to="/projects" id="link-projects" className="link">Projects</Link>
-                <Link to="/contact" id="link-contact" className="link">Contact</Link>
+            <nav class="pages-nav">
+                <Link to="/projects" className="link">Projects</Link>
+                <Link to="/contact" className="link">Contact</Link>
             </nav>
 
             <div class="loader">
