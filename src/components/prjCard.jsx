@@ -15,7 +15,7 @@ export default function PrjCard(props) {
                 <FaGithub /> Go to project &#x2192;
             </Link>
             {props.site ?
-                <Link to={props.site} className="card-btn"><FaLink /> Go to website &#x2192;</Link>
+                <Link to={props.site} target='_blank' className="card-btn"><FaLink /> Go to website &#x2192;</Link>
                 : <></>}
         </div>
 
