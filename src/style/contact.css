@@ -1,0 +1,43 @@
+#contact {
+    margin-top: 15vh;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    flex-wrap: wrap;
+
+}
+
+.contact-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 5vw;
+}
+
+#contact ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#contact .project-card h1 {
+    font-size: 3em;
+}
+
+#contact ul {
+    width: 70%;
+    list-style-type: disc;
+}
+
+#contact ul li .link {
+    display: flex;
+    text-decoration: underline;
+    gap: 10px;
+    align-items: center;
+    font-size: 2em;
+}
