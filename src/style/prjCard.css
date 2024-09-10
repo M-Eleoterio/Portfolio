@@ -12,11 +12,18 @@
     align-items: center;
     flex-direction: column;
     min-width: 350px;
+    min-height: 640px;
+    gap: 10px;
 }
 
 .card-img {
     border-radius: inherit;
     width: 90%;
+}
+
+.card-info {
+    width: 100%;
+    text-align: center;
 }
 
 .card-btn {
@@ -43,4 +50,11 @@
     -webkit-backdrop-filter: blur(5px);
     transform: scale(1.1);
 
+}
+
+.card-desc {
+    text-align: center;
+}
+
+@media (min-width: 1350px) {
 }

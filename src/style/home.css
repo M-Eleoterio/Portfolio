@@ -20,8 +20,9 @@
 #home-text-title {
     transition: 0.5s ease-in-out;
     -webkit-text-stroke: 0.6px white;
-        animation: text-animation 2s;
+    animation: text-animation 2s;
     font-size: 12vw;
+    user-select: none;
 }
 
 .link:hover {
@@ -46,6 +47,38 @@
     top: 20px;
     left: 20px;
     font-size: 5vw;
+}
+
+#home-technologies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 100px;
+    width: 40vw;
+    overflow: hidden;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    box-shadow: inset 10px 0 10px -10px rgb(0, 0, 0),
+                /* esquerda */
+                inset -10px 0 10px -10px rgb(0, 0, 0);
+                /* direita */
+}
+
+#home-technologies img {
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.301));
+    display: inline-block;
+    animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-1790%);
+    }
 }
 
 /* CUBE */
