@@ -17,7 +17,7 @@ import {
   TbBrandTypescript,
   TbBrandJavascript,
 } from "react-icons/tb";
-import { Marquee } from "../magicui/marquee";
+import { Marquee } from "../../magicui/marquee";
 
 export const TechnologiesCarousel = () => {
   return (

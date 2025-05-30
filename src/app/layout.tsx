@@ -5,6 +5,7 @@ import { AuroraText } from "@/components/magicui/aurora-text";
 import { Dock, DockIcon } from "@/components/magicui/dock";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
+import { Header } from "@/components/ui/Header";
 
 export const metadata: Metadata = {
   title: "Eleoterio - Web Developer Portfolio",
@@ -23,13 +24,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className={`antialiased text-white bg-black ${inter.variable}`}>
-        <header className="fixed left-10 top-10">
-          <p>
-            <AuroraText className="font-bold text-3xl">M.</AuroraText> <br />{" "}
-            <span className="font-thin text-xl">Eleotério</span>
-          </p>
-        </header>
+      <body className={`antialiased text-white bg-black ${inter.className}`}>
+        <Header />
         {children}
         <div className="fixed w-full bottom-10 mx-auto">
           <Dock iconMagnification={60} iconDistance={100} direction="middle">
